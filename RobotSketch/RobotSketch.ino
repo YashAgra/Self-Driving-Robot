@@ -113,17 +113,26 @@ if(bluetooth.available()){
     case 5:
     getVal(val,1);
     break;
+    case 53:
+    getVal(val,1);
+    break;
     case 1:
     getVal(val,2);
     break;
+    case 49:
+    getVal(val,2);
+    break;
     case 3:
+    getVal(val,3);
+    break;
+    case 51:
     getVal(val,3);
     break;
     default:
     stopBot();
   }
 }
-delay(2000);
+
 
 }
 
